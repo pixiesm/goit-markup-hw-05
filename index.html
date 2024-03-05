@@ -580,26 +580,26 @@
             </li>
           </ul>
         </div>
-        <form>
-          <label class="footer-subscribe-form-label" for="email-footer">
-            Subscribe
-          </label>
-          <div class="subscribe-input-wrapper">
-            <input
-              class="footer-subscribe-form-input"
-              type="email"
-              name="email"
-              placeholder="E-mail"
-              id="email-footer"
-            />
+        <div class="form-wrapper">
+          <p class="form-text">Subscribe</p>
+          <form class="form-container">
+            <label class="footer-subscribe-form-label" for="email-footer">
+              <input
+                class="footer-subscribe-form-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                id="email-footer"
+              />
+            </label>
             <button class="footer-subscribe-btn" type="submit">
               Subscribe
               <svg class="btn-subscribe-icon" height="24px" width="24px">
                 <use href="./images/icons.svg#icon-paper-plane"></use>
               </svg>
             </button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- modal window -->
@@ -677,7 +677,6 @@
             <textarea
               class="information-form-comment-area"
               name="comment"
-              value="comment"
               id="user-comment"
               placeholder="Text input"
               required
